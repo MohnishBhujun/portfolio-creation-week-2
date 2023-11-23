@@ -28,6 +28,13 @@ body
     padding-left: 100px; 
 }
 
+/*Creating a flexbox for the navigation*/
+.flexNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /*Setting the navigation bar and styling*/
 .header nav 
 {
@@ -86,6 +93,7 @@ p
     height: 200%;
     background-color: #3b628a;
 }
+
 .container2 
 {
     margin-top: 250px;
@@ -125,4 +133,27 @@ p
 .work img:hover 
 {
     box-shadow: inset 5px 5px 5px #d18409, 0 0 15px #F7E7CE, 0 0 0 10px #d18409;
+}
+
+.flexboxMain 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Creating the caption in the image*/
+.image-caption 
+{
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: -200px;
+    margin-left: 325px;
+    background-color: #ADD8E6;
+    color: #000000;
+    font-size: larger;
+    overflow: hidden;
 }
