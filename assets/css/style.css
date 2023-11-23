@@ -1,6 +1,138 @@
-/*Creating the header*/
-header h1.page-title {
-    padding: 1rem 1.2rem;
-    font-size: 4.5rem;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Seting the background colour*/
+body 
+{
+    background-color: #d3d3d3;
+}
+
+/*Setting the header*/
+.header 
+{
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #343d46;
+    color: #000000;
+}
+
+/*Setting the title*/
+.header h1 
+{
+    display: inline;
+    font-size: 48px;
+    background-color: rgb(33, 189, 189);
+    padding-left: 100px; 
+}
+
+/*Setting the navigation bar and styling*/
+.header nav 
+{
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul 
+{
+    list-style-type: none;
+}
+
+.header nav ul li 
+{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*Styling paragraph words*/
+a 
+{
+    color: rgb(33, 189, 189);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+p 
+{
+    font-size: 30px;
+    position: relative;
+    margin-top: -55px;
+    margin-left: 325px;
+    color: #7c9ec0;
+}
+
+/*Creating flexbox*/
+.row 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+}
+
+.container1 
+{
+  margin-top: 250px;
+  padding-left: 20px ;
+  font-size: 60px;
+  color: #3b628a;
+  position: relative;
+}
+
+/*Creating vertical line*/
+.container1::after 
+{
+    content: "";
+    position: absolute;
+    top: 10;
+    right: 10;
+    width: 7px;
+    height: 200%;
+    background-color: #3b628a;
+}
+.container2 
+{
+    margin-top: 250px;
+    padding-left: 145px ;
+    font-size: 60px;
+    color: #3b628a;
+    position: relative;
+}
+
+/*Creating vertical line*/
+.container2::after 
+{
+    content: "";
+    position: absolute;
+    right: 10;
+    width: 7px;
+    height: 1000%;
+    background-color: #3b628a;
+}  
+
+/*First deployed work*/
+/*Adding outline, hover shadow to picture*/
+.work img 
+{
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: -60px;
+    margin-left: 325px;
+    outline: 10px solid #ADD8E6;
+    outline-offset: -2px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: inset 5px 5px 5px #d18409, 0 0 15px #F7E7CE;
   }
   
+.work img:hover 
+{
+    box-shadow: inset 5px 5px 5px #d18409, 0 0 15px #F7E7CE, 0 0 0 10px #d18409;
+}
