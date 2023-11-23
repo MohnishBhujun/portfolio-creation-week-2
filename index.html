@@ -5,27 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
 
 <body>  
-     <!--Creating the navigation bar-->
-    <header> 
-        <h1 class="page-title">My Portfolio</h1 class="page-title">
-        <nav1>
-            <a href="About Me">About Me</a>
-        </nav1>
-        <nav2>
-            <a href="Work">Work</a>
-        </nav2>
-        <nav3>
-            <a href="Contact Me">Contact Me</a>
-        </nav3>
-        <nav4>
-            <a href="Resume">Resume</a>
-        </nav4>
-
+    <header class="header">
+        <h1>Mohnish</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#About-Me"><u>About Me</u></a>
+                </li>
+                <li>
+                    <a href="#Work"><u>Work</u></a>
+                </li>
+                <li>
+                    <a href="#Contact-Me"><u>Contact Me</u></a>
+                </li>
+                <li>
+                    <a href="#Resume"><u>Resume</u></a>
+                </li>
+            </ul>
+        </nav>    
     </header>
-
-</body>
+    <main>
+    
+        <section id="About-Me">
+            <h2 class="container1">About Me</h2>
+                <p>
+               Hello, My name is Mohnish. 
+               I am currently a student in the University of Toronto's coding bootcamp.
+               I have experience with coding as I did Computer Science as one of A levels examinations. 
+                </p>
+        
+        </section>
+        
+        <section id="Work">
+            <h2 class="container2 card-header">Work</h2>
+            <figure class="work">
+                <a href="https://mohnishbhujun.github.io/challenge-week-1/">
+                <img :hover src="assets\images\Screenshot 2023-11-23 051203.png" class="float-left" alt="Picture of first deployed website"/>
+                </a>
+            </figure>
+        </section>
+    </main>
+</body>    
