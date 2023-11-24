@@ -1,6 +1,6 @@
 # portfolio-creation-week-2
 
-##Created a portfolio to add my current and future works to. 
+## Created a portfolio to add my current and future works to. 
 I am extremely eager to add more works and embelish the website with knowledge I will be acquiring !
 
 
