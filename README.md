@@ -1,5 +1,10 @@
 # portfolio-creation-week-2
 
-Adding a link and screenshot 
+##Created a portfolio to add my current and future works to. 
+I am extremely eager to add more works and embelish the website with knowledge I will be acquiring !
 
-![Screenshot 2023-11-23 232209](https://github.com/MohnishBhujun/portfolio-creation-week-2/assets/149837818/5e2a2de1-8f4c-48db-8471-bdff8e999b0b)
+
+Link to the deployed website and a screenshot. 
+
+https://mohnishbhujun.github.io/portfolio-creation-week-2/
+![Screenshot 2023-11-23 232722](https://github.com/MohnishBhujun/portfolio-creation-week-2/assets/149837818/0ae89d16-e69b-4174-b082-c3ef902fb5ce)
