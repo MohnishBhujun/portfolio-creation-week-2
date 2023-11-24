@@ -2,89 +2,89 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
-
-/*Seting the background colour*/
-body 
-{
+  }
+  
+  /*Seting the background colour*/
+  body 
+  {
     background-color: #d3d3d3;
-}
-
-/*Setting the header*/
-.header 
-{
+  }
+  
+  /*Setting the header*/
+  .header 
+  {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #343d46;
     color: #000000;
-}
-
-/*Setting the title*/
-.header h1 
-{
+  }
+  
+  /*Setting the title*/
+  .header h1 
+  {
     display: inline;
     font-size: 48px;
     background-color: rgb(33, 189, 189);
     padding-left: 100px; 
-}
-
-/*Creating a flexbox for the navigation*/
-.flexNav {
+  }
+  
+  /*Creating a flexbox for the navigation*/
+  .flexNav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-/*Setting the navigation bar and styling*/
-.header nav 
-{
+  }
+  
+  /*Setting the navigation bar and styling*/
+  .header nav 
+  {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-.header nav ul 
-{
+  }
+  
+  .header nav ul 
+  {
     list-style-type: none;
-}
-
-.header nav ul li 
-{
+  }
+  
+  .header nav ul li 
+  {
     display: inline-block;
     margin-left: 25px;
-}
-
-/*Styling paragraph words*/
-a 
-{
+  }
+  
+  /*Styling paragraph words*/
+  a 
+  {
     color: rgb(33, 189, 189);
     text-decoration: none;
     font-size: 25px;
-}
-
-p 
-{
+  }
+  
+  p 
+  {
     font-size: 30px;
     position: relative;
     margin-top: -55px;
     margin-left: 325px;
     color: #7c9ec0;
-}
-
-.container1 
-{
+  }
+  
+  .container1 
+  {
   margin-top: 250px;
   padding-left: 20px ;
   font-size: 60px;
   color: #3b628a;
   position: relative;
-}
-
-/*Creating vertical line*/
-.container1::after 
-{
+  }
+  
+  /*Creating vertical line*/
+  .container1::after 
+  {
     content: "";
     position: absolute;
     top: 10;
@@ -92,60 +92,75 @@ p
     width: 7px;
     height: 200%;
     background-color: #3b628a;
-}
-
-.container2 
-{
+  }
+  
+  .container2 
+  {
     margin-top: 250px;
-    padding-left: 145px ;
+    padding-left: -800px ;
     font-size: 60px;
     color: #3b628a;
     position: relative;
-}
-
-/*Creating vertical line*/
-.container2::after 
-{
+    right: 1040px;
+  }
+  
+  /*Creating vertical line*/
+  .container2::after 
+  {
     content: "";
     position: absolute;
-    right: 10;
     width: 7px;
-    height: 1000%;
+    height: 850%;
     background-color: #3b628a;
-}  
-
-/*First deployed work*/
-/*Adding outline, hover shadow to picture*/
-.work img 
-{
+  }  
+  
+  /*First deployed work*/
+  /*Adding outline, hover shadow to picture*/
+  .work img 
+  {
     max-height: 500px;
     display: flex;
     flex-wrap:wrap;
     position: relative;
     margin-top: -60px;
-    margin-left: 325px;
+    margin-left: -850px;
     outline: 10px solid #ADD8E6;
     outline-offset: -2px;
     transition: all 0.3s ease-in-out;
     box-shadow: inset 5px 5px 5px #d18409, 0 0 15px #F7E7CE;
   }
   
-.work img:hover 
-{
+  
+  
+  .work img:hover 
+  {
     box-shadow: inset 5px 5px 5px #d18409, 0 0 15px #F7E7CE, 0 0 0 10px #d18409;
-}
-
-.flexboxMain 
-{
+  }
+  
+  .flexboxMain 
+  {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-/*Creating the caption in the image*/
-.image-caption 
-{
+  }
+  
+  /*Creating the caption in the image*/
+  .image-caption 
+  {
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: -200px;
+    margin-left: -90px;
+    background-color: #ADD8E6;
+    color: #000000;
+    font-size: larger;
+    overflow: hidden;
+  }
+  .image-caption2 
+  {
     max-height: 500px;
     display: flex;
     flex-direction: column;
@@ -156,24 +171,79 @@ p
     color: #000000;
     font-size: larger;
     overflow: hidden;
-}
-.image-caption2 
-{
-    max-height: 500px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    margin-top: -200px;
-    margin-left: 325px;
-    background-color: #ADD8E6;
-    color: #000000;
-    font-size: larger;
-    overflow: hidden;
-}
-.flexboxF
-{
+  }
+  .flexboxFinal
+  {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
+  .container3 
+  {
+  margin-top: 250px;
+  padding-left: -300px ;
+  font-size: 55px;
+  color: #3b628a;
+  position: relative;
+  right: 1128px;
+  }
+  
+  /*Creating vertical line*/
+  .container3::after 
+  {
+    content: "";
+    position: absolute;
+    right: 1110px;
+    width: 7px;
+    height: 100%;
+    background-color: #3b628a;
+  }
+  
+  /* Adjusting the footer styles */
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contact-links {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .contact-links ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact-links li {
+    margin-left: 10px;
+  }
+  
+  .contact-links a {
+    text-decoration: none;
+    color: #3b628a;
+    font-size: 30px;
+  }
+  
+  /* Adjusting the contact heading styles */
+  .contact-heading {
+    margin: 0;
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .contact-links {
+      margin-top: 10px;
+    }
+  }

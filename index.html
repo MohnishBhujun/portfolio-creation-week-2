@@ -1,60 +1,79 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
 <body>
-    <header class="header flexNav">
-        <h1>Mohnish</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#About-Me"><u>About Me</u></a>
-                </li>
-                <li>
-                    <a href="#Work"><u>Work</u></a>
-                </li>
-                <li>
-                    <a href="#Contact-Me"><u>Contact Me</u></a>
-                </li>
-                <li>
-                    <a href="#Resume"><u>Resume</u></a>
-                </li>
-            </ul>
-        </nav>    
-    </header>
-    <main class="flexboxMain">
-    
-        <section id="About-Me">
-            <h2 class="container1">About Me</h2>
-                <p>
-               Hello, My name is Mohnish. 
-               I am currently a student in the University of Toronto's coding bootcamp.
-               I have experience with coding as I did Computer Science as one of A levels examinations. 
-                </p>
-        
-        </section>
-        
-        <section id="Work">
-            <h2 class="container2 card-header">Work</h2>
-            <figure class="work">
-                <a href="https://mohnishbhujun.github.io/challenge-week-1/">
-                <img :hover src="assets\images\Screenshot 2023-11-23 051203.png" class="float-left" alt="Picture of first deployed website"/>
-                <figcaption class="image-caption">Horiseon Website</figcaption>
-                </a>
-            </figure>
-        </section>
+  <header class="header flexNav"> <!--Creating header and navigation links-->
+    <h1>Mohnish</h1>
+    <nav>
+      <ul>
+        <li>
+          <a href="#About-Me"><u>About Me</u></a>
+        </li>
+        <li>
+          <a href="#Work"><u>Work</u></a>
+        </li>
+        <li>
+          <a href="#Contact-Me"><u>Contact Me</u></a>
+        </li>
+        <li>
+          <a href="#Resume"><u>Resume</u></a>
+          <section id ="ResumePlaceholder"></section>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-    </main>
-    
-    <footer id = "Contact-Me">
-        <h3> class =""</h3>
+  <main class="flexboxMain">  <!--Creating the About Me Section-->
+    <section id="About-Me">   <!--Creating a link to the About Me Section-->
+      <h2 class="container1">About Me</h2>
+      <p>
+        Hello, My name is Mohnish.
+        I am currently a student in the University of Toronto's coding bootcamp.
+        I have experience with coding as I did Computer Science as one of A levels examinations.
+      </p>
+    </section>
 
-    </footer>
-</body>    
+    <section id="Work">    <!--Creating a link to the Work Section-->
+      <h2 class="container2 card-header">Work</h2> <!--Creating the Work Section-->
+      <figure class="work">
+        <a href="https://mohnishbhujun.github.io/challenge-week-1/"> <!--Adding clickable picture of my work-->
+          <img :hover src="assets\images\Screenshot 2023-11-23 051203.png" class="float-left" alt="Picture of first deployed website"/>
+          <figcaption class="image-caption">Horiseon Website</figcaption>
+        </a>
+      </figure>
+    </section>
+  </main>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <footer id="Contact-Me" class="flexboxFinal container3 footer">   <!--Creating a link to the Contact Me Section-->
+    <h3 class="contact-heading">Contact Me</h3>                     <!--Creating the Contact Me Section-->
+    <nav class="contact-links">
+      <ul>
+        <li>
+          <a href="numberPlaceholder"><u>555.555.555</u></a>
+        </li>
+        <li>
+          <a href="mohnish@websitePlaceholder"><u>mohnish@website</u></a>
+        </li>
+        <li>
+          <a href="twitterPlaceholder"><u>Twitter</u></a>
+        </li>
+        <li>
+          <a href="https://github.com/MohnishBhujun/portfolio-creation-week-2"><u>GitHub</u></a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
